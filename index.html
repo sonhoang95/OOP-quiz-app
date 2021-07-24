@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>OOP - Quiz App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jabquiz">
+        <div class="jabquiz__question-box">
+          <!-- Progress Bar -->
+          <div class="progress">
+            <div class="progress__inner"></div>
+          </div>
+
+          <!-- Question 1 -->
+          <h3 class="jabquiz__tracker"></h3>
+          <p class="jabquiz__question"></p>
+        </div>
+
+        <div class="jabquiz__choices-box">
+          <ul class="jabquiz__choices">
+            <!-- Will remove and add back using JS dynamically -->
+          </ul>
+        </div>
+
+        <div class="jabquiz__footer">
+          <button class="button button--bordered next">
+            Next
+            <div class="circle circle1"></div>
+            <div class="circle circle2"></div>
+          </button>
+
+          <button class="button button--bordered restart">Restart</button>
+        </div>
+      </div>
+    </div>
+    <div class="circle-bottom blue"></div>
+    <div class="circle-bottom green1"></div>
+    <div class="circle-bottom green2"></div>
+    <div class="circle-bottom red1"></div>
+    <div class="circle-bottom red2"></div>
+    <div class="circle-bottom yellow"></div>
+    <div class="circle-bottom dark-green"></div>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
